@@ -1,7 +1,7 @@
 from models import People
 #Inserir os dados na tabela
 def insert_person():
-  person = People(name="Paulo", age="25")
+  person = People(name="Pedro", age="35")
   print(person)
   person.save()
 #Ver os dados ta tabela
@@ -20,8 +20,7 @@ def delete_person():
 
 
 if __name__ =="__main__":
-  # insert_person()
-  delete_person()
-  query_person()
+  insert_person()
+  # query_person()
   # change_person()
 
